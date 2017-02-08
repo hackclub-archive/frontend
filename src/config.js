@@ -22,5 +22,6 @@ export default {
     }
   },
   apiBaseUrl: process.env.REACT_APP_API_BASE_URL,
-  slackClientId: process.env.REACT_APP_SLACK_CLIENT_ID
+  slackClientId: process.env.REACT_APP_SLACK_CLIENT_ID,
+  intercomAppKey: process.env.REACT_APP_INTERCOM_APP_KEY
 }
