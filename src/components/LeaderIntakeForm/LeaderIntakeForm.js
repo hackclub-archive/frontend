@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { reduxForm, Field } from 'redux-form'
 import { sortBy } from 'lodash'
-import { Button, Emoji, TextField, TextAreaField, SelectField } from '../../components'
+import { AddressField, Button, Emoji, TextField, SelectField } from '../../components'
 import leaderIntakeValidation from './leaderIntakeValidation'
 
 class LeaderIntakeForm extends Component {
@@ -64,7 +64,8 @@ class LeaderIntakeForm extends Component {
         <Field name="slack_username" label="Slack username" component={TextField} />
         <Field name="github_username" label="GitHub username" component={TextField} />
         <Field name="twitter_username" label="Twitter username (if you have one)" component={TextField} />
-        <Field name="address" label="Full address (include state and zip code)" component={TextAreaField} />
+        <Field name="address" label="Address (include state and zip code)" component={AddressField} />
+        <Field name="address_details" label="Apartment/suite/floor (optional)" component={TextField} />
         <Button type="form"
                 state={this.buttonState()}>{this.buttonText(status)}</Button>
       </form>
