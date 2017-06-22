@@ -1,6 +1,6 @@
 # Frontend [DEPRECATED]
 
-__*Warning: This repository has been combined with `[hackclub/monolith](https://github.com/hackclub/monolith)`*__
+__*Warning: This repository has been combined with [`hackclub/monolith`](https://github.com/hackclub/monolith)*__
 
 ## Getting Started
 
